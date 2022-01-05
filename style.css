@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+}
+.half-width{
+    padding: 20px;
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+
+}
