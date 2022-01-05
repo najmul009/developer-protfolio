@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 section{
@@ -17,11 +18,9 @@ section{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    
 }
 h1{
     font-size: 50px;
-
 }
 .half-width img{
     width: 100%;
@@ -36,7 +35,9 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
+}
+.anchor-button:hover{
+    background: linear-gradient(to right,  rgb(241, 53, 20), rgb(233, 138, 122));
 }
 
 h2{
@@ -53,7 +54,7 @@ h2{
     background-position: left;
 }
 .experience div{
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 4px 6px 30px gray;
     height: 80%;
 }
 #full-stack{
@@ -68,4 +69,7 @@ h2{
 }
 footer p{
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px ;
 }
