@@ -1,12 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 section{
     height: 600px;
     display: flex;
 }
+.fix-gap {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 .header{
     background-image:url(images/top-banner.png) ;
     background-repeat: no-repeat;
@@ -35,6 +40,8 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    display: inline-block;
+    margin-top: 20px;
 }
 .anchor-button:hover{
     background: linear-gradient(to right,  rgb(241, 53, 20), rgb(233, 138, 122));
@@ -67,9 +74,10 @@ h2{
     border-image: linear-gradient(180deg, rgb(236, 226, 82), rgb(32, 245, 43));
     border-image-slice: 1;
 }
-footer p{
+footer{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 10px 0px ;
+    padding: 10px;
 }
+
