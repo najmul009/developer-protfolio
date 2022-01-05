@@ -2,14 +2,38 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.header{
+section{
+    height: 500px;
+    padding-bottom: 150px;
     display: flex;
 }
+.header{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+}
 .half-width{
-    padding: 20px;
-    width: 50%;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
 }
 h1{
     font-size: 50px;
+
+}
+.half-width img{
+    width: 100%;
+}
+.orange-color{
+    color: orange;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,rgb(241, 118, 96),rgb(250, 50, 14));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 
 }
